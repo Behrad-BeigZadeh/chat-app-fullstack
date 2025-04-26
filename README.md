@@ -11,7 +11,7 @@ A modern, real-time chat application built with the **MERN** stack, **Prisma**, 
 - 🗂️ Chatroom support (1-on-1 and group ready structure)
 - 📦 Backend powered by **Express**, **Prisma**, and **PostgreSQL**
 - ⚛️ Frontend built with **React**, **Zustand**, and **React Query**
-- 🌈 Dark-themed UI for a modern chat experience
+- 🌈 Different themes using Daisy Ui
 - ☁️ Cloudinary support for image upload (optional feature)
 - 🔒 Secure password hashing with bcrypt
 - 🧼 Clean and modular codebase
