@@ -22,12 +22,12 @@ A modern, real-time chat application built with the **MERN** stack, **Prisma**, 
 
 ### 🖥️ Chat Interface
 
-![Chat UI](./assets/chat.png)
-![Chat UI](./assets/chatpage.png)
+![Chat UI](./frontend/assets/chat.png)
+![Chat UI](./frontend/assets/chatpage.png)
 
 ### 🔐 Login Page
 
-![Login](./assets/signin.png)
+![Login](./frontend/assets/signin.png)
 
 
 
