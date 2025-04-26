@@ -82,10 +82,6 @@ A modern, real-time chat application built with the **MERN** stack, **Prisma**, 
  ### Run database migrations using Prisma
     npx prisma migrate dev
 
-### Set up your .env.local file in the frontend/ folder
 
- - Create a file called .env.local and add the following:
-
-    VITE_API_URL=http://localhost:5000
     
 
