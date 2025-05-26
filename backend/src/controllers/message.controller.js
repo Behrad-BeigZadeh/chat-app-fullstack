@@ -20,6 +20,7 @@ export const getUsersForSidebar = async (req, res) => {
         profilePic: true,
       },
     });
+    console.log("👉 filteredUsers =", filteredUsers);
 
     const updatedUsers = await Promise.all(
       filteredUsers.map(async (user) => {

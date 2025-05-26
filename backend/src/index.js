@@ -11,7 +11,6 @@ import { app, server } from "./lib/socket.js";
 dotenv.config();
 
 const PORT = process.env.PORT;
-const __dirname = path.resolve();
 
 app.use(express.json());
 app.use(cookieParser());
@@ -22,6 +21,9 @@ app.use(
     credentials: true,
   })
 );
+app.get("/ping", (req, res) => {
+  res.status(200).send("pong");
+});
 
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
