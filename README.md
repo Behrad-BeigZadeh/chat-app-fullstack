@@ -2,6 +2,7 @@
 
 A modern, real-time chat application built with the **MERN** stack, **Prisma**, and **PostgreSQL**. Designed with scalability, performance, and clean architecture in mind. 🌐
 
+> ⚠️ The original UI was based on an open-source project. The backend has been fully rebuilt using Prisma and enhanced with real-time features such as seen status, message deletion, and more.
 ---
 
 ## ✨ Features
