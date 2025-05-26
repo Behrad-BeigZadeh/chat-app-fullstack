@@ -98,7 +98,7 @@ const ChatContainer = () => {
         className="absolute top-4 right-16 text-red-500 z-10"
         onClick={handleDeleteClick}
       >
-        <Trash2 className="w-6 h-6" /> {/* Trash icon from lucide-react */}
+        <Trash2 className="w-6 h-6" />
       </button>
 
       <div className="flex-1 overflow-y-auto p-4 space-y-4">
